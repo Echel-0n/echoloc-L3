@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.example.echoloc.EchoButton
+                android:id="@+id/chooseMapButton"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:colorBackground="@color/main_color"
+                android:selectable="true"
+                android:state_selected="true"
+                android:text="@string/game_mode_map_finding"
+                app:textColorSelected="@color/white"
+                app:textColorUnselected="@color/main_color"
+                android:textSize="8sp"
+                android:translationZ="1dp"
+                app:colorBackgroundUnselected="@color/background_color"
+                app:paddingInner="10dp"
+                tools:ignore="SmallSp" />
+            <com.example.echoloc.EchoButton
+                android:id="@+id/chooseButtonsButton"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:colorBackground="@color/main_color"
+                android:selectable="true"
+                android:state_selected="false"
+                android:text="@string/game_mode_button_finding"
+                app:textColorSelected="@color/white"
+                app:textColorUnselected="@color/main_color"
+                android:textSize="8sp"
+                android:translationZ="1dp"
+                app:colorBackgroundUnselected="@color/background_color"
+                app:paddingInner="10dp"
+                tools:ignore="SmallSp" />
+            <com.example.echoloc.EchoButton
+                android:id="@+id/chooseTextButton"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:colorBackground="@color/main_color"
+                android:selectable="true"
+                android:state_selected="false"
+                android:text="@string/game_mode_text_finding"
+                app:textColorSelected="@color/white"
+                app:textColorUnselected="@color/main_color"
+                android:textSize="8sp"
+                android:translationZ="1dp"
+                app:colorBackgroundUnselected="@color/background_color"
+                app:paddingInner="10dp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_color"/>
+
+        <LinearLayout
+            android:id="@+id/stats_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

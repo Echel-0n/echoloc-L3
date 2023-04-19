@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:drawable="@drawable/echo_logo">
+    <target
+        android:animation="@animator/echo_logo_animator_fading"
+        android:name="echo"/>
+</animated-vector>

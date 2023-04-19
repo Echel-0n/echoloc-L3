@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1500px"
+    android:height="1500px"
+    android:viewportWidth="1100"
+    android:viewportHeight="1100">
+    <group
+        android:name="group-echo"
+        android:pivotX="250"
+        android:pivotY="250"
+        android:translateX="300"
+        android:translateY="300">
+        <path
+            android:name="echo"
+            android:pathData="@string/path_echo_logo_e"
+            android:fillColor="@color/main_color"
+            />
+    </group>
+</vector>

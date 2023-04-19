@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1350"
+    android:viewportHeight="1350">
+    <group
+        android:translateX="325"
+        android:translateY="225">
+        <path
+            android:name="point_background"
+            android:pathData="@string/path_point_background"
+            android:fillColor="@color/main_color"
+            android:strokeColor="@color/black"
+            />
+        <group
+            android:name="group-echo"
+            android:translateX="100"
+            android:translateY="100">
+            <path
+                android:name="echo"
+                android:pathData="@string/path_echo_logo_e"
+                android:strokeColor="@color/white"
+                android:strokeWidth="10"
+                />
+        </group>
+    </group>
+</vector>

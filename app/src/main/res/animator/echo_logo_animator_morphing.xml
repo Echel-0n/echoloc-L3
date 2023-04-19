@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="300"
+        android:duration="400"
+        android:valueFrom="@string/path_echo_logo_e"
+        android:valueTo="@string/path_echo_logo_c"
+        android:valueType="pathType"/>
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="900"
+        android:duration="400"
+        android:valueFrom="@string/path_echo_logo_c"
+        android:valueTo="@string/path_echo_logo_h"
+        android:valueType="pathType"/>
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="1500"
+        android:duration="400"
+        android:valueFrom="@string/path_echo_logo_h"
+        android:valueTo="@string/path_echo_logo_o"
+        android:valueType="pathType"/>
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="2100"
+        android:duration="400"
+        android:valueFrom="@string/path_echo_logo_o"
+        android:valueTo="@string/path_echo_logo_e"
+        android:valueType="pathType"/>
+</set>

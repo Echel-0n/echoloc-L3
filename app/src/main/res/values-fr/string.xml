@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echoloc</string>
+
+
+    <string name="title_activity_game">GameActivity</string>
+    <!-- Words -->
+    <string name="word_valid">Valider</string>
+    <string name="word_cancel">Annuler</string>
+    <string name="word_settings">Paramètres</string>
+    <string name="word_game_settings">Paramètres de jeu</string>
+    <string name="word_play">Jouer</string>
+    <string name="word_replay">Rejouer</string>
+    <string name="word_go_home">Retour au menu</string>
+    <string name="word_wellPlay">Bien joué</string>
+    <string name="word_ohNoo">Dommage…</string>
+
+    <!-- Errors TODO translate -->
+    <string name="error_city_range">Trop grande plage de villes les plus peuplées donnée…</string>
+    <string name="error_connection">Echec de la connexion…</string>
+    <string name="error_inexistant_country">Pays inexistant…</string>
+    <string name="error_url">Erreur d\'URL…</string>
+    <string name="error_data_read">Erreur de lecture des données…</string>
+    <string name="error_protocol">Erreur de protocole de la requête…</string>
+
+    <!-- Game Settings -->
+    <string name="langCode">FR</string>
+
+    <string name="game_mode_map_finding">Carte</string>
+    <string name="game_mode_button_finding">Boutons</string>
+    <string name="game_mode_text_finding">Nom</string>
+
+    <string name="game_settings_country">Pays :</string>
+    <string name="game_settings_country_all">TOUS</string>
+    <string name="game_settings_intoMostPop_part1">Dans les </string>
+    <string name="game_settings_intoMostPop_part2"> plus peuplées</string>
+    <string name="game_settings_nb_buttons">Nb de boutons :</string>
+    <string name="game_settings_zoom_minimum">Zoom minimum :</string>
+    <string name="game_settings_zoom_description">1: Le monde | 5: Le continent | 10: La ville | 15: La rue</string>
+
+    <!-- Game -->
+    <string name="game_final_city">La ville était</string>
+    <string name="game_final_distance">Vous avez eu une précision de</string>
+    <string name="game_final_duration">Vous avez mis</string>
+
+    <string name="game_final_kilometer_unit">km</string>
+    <string name="game_final_meter_unit">m</string>
+    <string name="game_final_centimeter_unit">cm</string>
+
+    <!-- Continents description -->
+    <string name="word_asia">Asie</string>
+    <string name="word_africa">Afrique</string>
+    <string name="word_north_america">Amérique du Nord</string>
+    <string name="word_south_america">Amérique du Sud</string>
+    <string name="word_europe">Europe</string>
+    <string name="word_oceania">Océanie</string>
+</resources>

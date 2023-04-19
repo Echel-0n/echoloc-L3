@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EchoButton">
+        <attr name="android:colorBackground" format="reference"/>
+        <attr name="android:strokeColor" format="reference"/>
+        <attr name="android:textColor" format="reference"/>
+        <attr name="android:radius" format="dimension"/>
+        <attr name="android:text" format="string"/>
+        <attr name="android:textSize" format="dimension"/>
+        <attr name="android:state_selected" format="boolean"/>
+        <attr name="android:selectable" format="boolean"/>
+        <attr name="android:clickable" format="boolean"/>
+
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="colorBackgroundSelected" format="reference"/>
+        <attr name="colorBackgroundUnselected" format="reference"/>
+        <attr name="strokeColorSelected" format="reference"/>
+        <attr name="strokeColorUnselected" format="reference"/>
+        <attr name="textColorSelected" format="color"/>
+        <attr name="textColorUnselected" format="color"/>
+        <attr name="textAnimationPerSecond" format="dimension"/>
+        <attr name="paddingInner" format="dimension"/>
+        <attr name="paddingTopInner" format="dimension"/>
+        <attr name="paddingBottomInner" format="dimension"/>
+        <attr name="paddingRightInner" format="dimension"/>
+        <attr name="paddingLeftInner" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userTextAnswerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/validUserAnswerButton"
+    android:layout_below="@id/hideAnswerLayoutButton">
+    <EditText
+        android:id="@+id/userTextAnswerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/edit_text_cursor"
+        android:textColor="@color/main_color"
+        android:backgroundTint="@color/main_color"
+        android:textColorHighlight="@color/main_color"
+        android:textColorLink="@color/main_color"
+        android:textSize="40sp" />
+</LinearLayout>

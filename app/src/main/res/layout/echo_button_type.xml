@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/echoButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:id="@+id/echoButtonTextLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/echoButtonText"
+                android:layout_width="-1dp"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:scaleType="center"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/echoButtonClickEffect"
+            android:layout_width="1px"
+            android:layout_height="1px"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+</merge>

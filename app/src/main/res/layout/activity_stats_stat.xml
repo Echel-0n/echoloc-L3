@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/example_stat_layout"
+    android:columnCount="10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_column="1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/invalid"/>
+
+    <com.example.echoloc.EchoButton
+        android:layout_column="2"
+        android:layout_columnWeight="3"
+        android:layout_width="-1dp"
+        android:layout_height="40dp"
+        android:colorBackground="@color/background_color"
+        android:selectable="false"
+        android:state_selected="false"
+        android:textSize="7sp"
+        android:translationZ="1dp"
+        app:paddingInner="5dp"
+        app:textColorUnselected="@color/main_color"
+        tools:ignore="SmallSp" />
+
+    <com.example.echoloc.EchoButton
+        android:layout_column="3"
+        android:layout_columnWeight="3"
+        android:layout_width="-1dp"
+        android:layout_height="40dp"
+        android:colorBackground="@color/background_color"
+        android:selectable="false"
+        android:state_selected="false"
+        android:textSize="7sp"
+        android:translationZ="1dp"
+        app:paddingInner="5dp"
+        app:textColorUnselected="@color/main_color"
+        tools:ignore="SmallSp" />
+
+
+    <com.example.echoloc.EchoButton
+        android:layout_column="4"
+        android:layout_columnWeight="3"
+        android:layout_width="-1dp"
+        android:layout_height="40dp"
+        android:colorBackground="@color/background_color"
+        android:selectable="false"
+        android:state_selected="false"
+        android:textSize="7sp"
+        android:translationZ="1dp"
+        app:paddingInner="5dp"
+        app:textColorUnselected="@color/main_color"
+        tools:ignore="SmallSp" />
+</GridLayout>
