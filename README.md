@@ -1,4 +1,4 @@
-# echoloc-L3
+# Echeloc
 Projet développement mobile - L3 Informatique Tours
 
 Avant de lancer le projet :
